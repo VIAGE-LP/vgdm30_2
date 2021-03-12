@@ -1,0 +1,275 @@
+.fv {
+    width: 100%;
+    
+}
+.fv img {
+    width: 640px;
+    margin: 0 auto;
+    display: block;
+}
+.fv .mainview{
+    width: 840px;
+}
+
+@media screen and (max-width: 768px){
+    .fv img {
+        width: 100%;
+    }
+    .fv .mainview{
+        width: 100%;
+    }
+}
+.anniversary_1{
+    cursor: pointer;
+}
+.anniversary_2 {
+    display:none;
+    position:fixed;
+    z-index:98;
+    top:-3%;
+    right:-33.3vh;
+    left:-33.3vh;
+}
+.anniversary_2 img{
+    display:none;
+    width:30%;
+}
+
+@media screen and (max-width: 768px){
+    .anniversary_2 {
+        display:none;
+        position:fixed;
+        z-index:98;
+        top:5%;
+        right:-33.3vh;
+        left:-33.3vh;
+    }
+    .anniversary_2 img{
+        display:none;
+        width:50%;
+    }
+}
+
+.cv {
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+.cv::after {
+    padding-bottom: 20px;
+    content: '';
+}
+
+.teiki5 {
+    margin: 0 auto;
+    position: relative;
+    width: 640px;
+    height: 710px;
+    background: url(../images/vgdm30/set05.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.teiki5_btn {
+    -webkit-animation-name: expand;
+    -moz-animation-name: expand;
+    -o-animation-name: expand;
+    animation-name: expand;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -o-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    -o-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.teiki5 img {
+    position: absolute;
+    height: 53px;
+    bottom: 118px;
+    right: 47px;
+}
+
+.teiki4 {
+    margin: 0 auto;
+    position: relative;
+    width: 640px;
+    height: 369px;
+    background: url(../images/vgdm30/set04.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.teiki4 img {
+    position: absolute;
+    height: 40px;
+    bottom: 116px;
+    right: 56px;
+}
+
+.teiki3 {
+    margin: 0 auto;
+    position: relative;
+    width: 640px;
+    height: 248px;
+    background: url(../images/vgdm30/set03.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.teiki3 img {
+    position: absolute;
+    height: 40px;
+    bottom: 48px;
+    right: 47px;
+}
+
+.teiki2 {
+    margin: 0 auto;
+    position: relative;
+    width: 640px;
+    height: 252px;
+    background: url(../images/vgdm30/set02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.teiki2 img {
+    position: absolute;
+    height: 43px;
+    bottom: 52px;
+    right: 53px;
+}
+
+.teiki1{
+    margin: 0 auto;
+    position: relative;
+    width: 640px;
+    height: 182px;
+    background: url(../images/vgdm30/set01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+@media screen and (max-width: 768px){
+    .cv{
+        display: none;
+    }
+}
+
+/*----------------------------------------------------
+	offer _ m
+----------------------------------------------------*/
+.cv_m {
+    display: none;
+}
+@media screen and (max-width: 768px){
+.cv_m {
+    display: block;
+    width: 100%;
+}
+.cv_m img{
+    width: 100%;
+}
+}
+.sns{
+    width: 100%;
+ }
+ .sns_img{max-width: 1000px;margin: 0 auto;position: relative;}
+ .sns_btn {
+     text-align: center;
+ }
+ .sns_btn ul li{
+     display: inline-block;
+     margin: 0 8px;
+     cursor: pointer;
+ }
+ 
+ .buybtn{
+    width: 174px;
+    position: fixed;
+    right: 0;
+    bottom: 76px;
+    z-index: 99;
+}
+.buybtn img{width: 100%; height: auto;}
+@media screen and (max-width: 768px){
+    .buybtn{
+        width: 28%;
+        max-width: 170px;
+    }
+}
+
+#wh-widget-send-button{
+    display: none;
+}
+
+#fb-root{
+    display: none;
+}
+
+#wrapper img#line {
+    display: none;
+    position: fixed;
+    right: 15px;
+    bottom: 12px;
+    z-index: 99;
+}
+
+.line_alert {
+    display: none;
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    position: fixed;
+    bottom: 29px;
+    right: 90px;
+    z-index: 99;
+}
+.line_alert:before{
+    content: '';
+    position: absolute;
+    background: white;
+    border-bottom: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    right: -5px;
+    top: 50%;
+    margin-top: -4px;
+    width: 8px;
+    height: 8px;
+    z-index: 1;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.line_alert p{
+    padding: 5px 10px 5px 10px;
+    line-height: 18px;
+    max-height: 34px;
+    max-width: 135px;
+    overflow: hidden;
+    word-wrap: break-word;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.SP{
+    display: none;
+}
+@media screen and (max-width: 768px){
+.PC{
+    display: none;
+}
+.SP{
+    display: block;
+}
+}

@@ -1,0 +1,215 @@
+@media screen and (min-width:481px) {
+.fv_m{display: none;}
+.fv{display: block;}
+
+.award_m{display: none;}
+.award{display: block;}
+
+.magazine_m{display: none;}
+.magazine{display: block;}
+
+.ig_m{display: none;}
+.ig{display: block;}
+
+.cv_m{display: none;}
+.cv{display: block;}
+
+.nayami_m{display: none;}
+.nayami{display: block;}
+
+.cause_m{display: none;}
+.cause{display: block;}
+
+.down_m{display: none;}
+.down{display: block;}
+
+.correction_m{display: none;}
+.correction{display: block;}
+
+.ideal_m{display: none;}
+.ideal{display: block;}
+
+.recommend_m{display: none;}
+.recommend{display: block;}
+
+.approach_m{display: none;}
+.approach{display: block;}
+
+.envelop_m{display: none;}
+.envelop{display: block;}
+
+.allright_m{display: none;}
+.allright{display: block;}
+
+.color_m{display: none;}
+.color{display: block;}
+
+.qa_m{display: none;}
+.qa{display: block;}
+
+.size_m{display: none;}
+.size{display: block;}
+
+.voice_m{display: none;}
+.voice{display: block;}
+
+.faq_m{display: none;}
+.faq{display: block;}
+
+.up_m{display: none;}
+.up{display: block;}
+
+.sns_m{display: none;}
+.sns{display: block;}
+
+}
+
+
+@media screen and (max-width: 480px) {
+img{width: 100%;}
+.sns_m{display: block;}
+.sns{display: none;}
+
+.up_m{display: block;}
+.up{display: none;}
+
+.fv_m{display: block;}
+.fv{display: none;}
+
+.award_m{display: block;}
+.award{display: none;}
+
+.magazine_m{display: block;}
+.magazine{display: none;}
+
+.ig_m{display: block;}
+.ig{display: none;}
+
+.cv_m{display: block;}
+.cv{display: none;}
+
+.nayami_m{display: block;}
+.nayami{display: none;}
+
+.cause_m{display: block;}
+.cause{display: none;}
+
+.down_m{display: block;}
+.down{display: none;}
+
+.correction_m{display: block;}
+.correction{display: none;}
+
+.ideal_m{display: block;}
+.ideal{display: none;}
+
+.recommend_m{display: block;}
+.recommend{display: none;}
+
+.approach_m{display: block;}
+.approach{display: none;}
+
+.envelop_m{display: block;}
+.envelop{display: none;}
+
+.allright_m{display: block;}
+.allright{display: none;}
+
+.color_m{display: block;}
+.color{display: none;}
+
+.qa_m{display: block;}
+.qa{display: none;}
+
+.size_m{display: block;}
+.size{display: none;}
+
+.voice_m{display: block;}
+.voice{display: none;}
+
+.faq_m{display: block;}
+.faq{display: none;}
+}
+
+/* .cv_m .teiki5 {
+    margin: 0 auto;
+    position: relative;
+    width: 640px;
+    height: 764px;
+    background: url(../images/vgdm30/30日回構限定優惠_1_五入_640.jpg);
+}
+
+.cv_m .teiki5_btn {
+    -webkit-animation-name: expand;
+    -moz-animation-name: expand;
+    -o-animation-name: expand;
+    animation-name: expand;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -o-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    -o-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.cv_m .teiki5 img {
+    position: absolute;
+    width: 271px;
+    height: 54px;
+    top: 684px;
+    left: 302px;
+}
+
+.cv_m .teiki4 {
+    margin: 0 auto;
+    position: relative;
+    width: 640px;
+    height: 242px;
+    background: url(../images/vgdm30/30日回構限定優惠_1_四入_640.jpg);
+}
+
+.cv_m.teiki4 img {
+    position: absolute;
+    width: 200px;
+    height: 41px;
+    top: 173px;
+    left: 392px;
+}
+
+.cv_m .teiki3 {
+    margin: 0 auto;
+    position: relative;
+    width: 640px;
+    height: 182px;
+    background: url(../images/vgdm30/30日回構限定優惠_1_三入_640.jpg);
+}
+
+.cv_m .teiki3 img {
+    position: absolute;
+    width: 200px;
+    height: 41px;
+    top: 119px;
+    left: 393px;
+}
+
+.cv_m .teiki2 {
+    margin: 0 auto;
+    position: relative;
+    width: 640px;
+    height: 193px;
+    background: url(../images/vgdm30/30日回構限定優惠_1_二入_640.jpg);
+    background-repeat: no-repeat;
+}
+
+.cv_m .teiki2 img {
+    position: absolute;
+    width: 201px;
+    height: 41px;
+    top: 118px;
+    left: 398px;
+} */
