@@ -13,7 +13,7 @@ $(document).ready(function () {
     $(window).scroll(function () {
         var scrollPos = $(window).scrollTop();
         var windowHeight = $(window).height();
-        var formTop = $('#acs_lp_form').position().top;
+        var formTop = $('#lp_form').position().top;
         var width = $(window).width();
 
         if ((formTop <= (scrollPos + windowHeight / 2)) && (width <= 768)) {
