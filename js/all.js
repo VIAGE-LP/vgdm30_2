@@ -10,7 +10,7 @@ $(document).ready(function () {
         e.preventDefault();
         $('html , body').animate({
             scrollTop: $('#sale').offset().top,
-        }, 900);
+        }, 600);
     });
 
     // $("#wh-call-to-action").removeAttr("wh-click");
