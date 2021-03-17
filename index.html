@@ -3,6 +3,8 @@
 
 <head>
     <title>揪好友省錢美胸👙+VIAGE送你購物金</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <!-- 編集削除禁止※スマホ最適化※編集削除禁止 -->
@@ -89,12 +91,11 @@
                         <img src="images/vgdm30/01_banner.jpg" alt="">
                         <img class="mainview" src="images/vgdm30/01_fv.jpg" title="擁有完美胸型的捷徑-晚安立體美型內衣">
                         <img class="anniversary_1" src="images/vgdm30/02_million.jpg">
-                        <div class="anniversary_2" style="display:none">
+                        <!-- <div class="anniversary_2" style="display:none">
                             <img src="./images/detail.png" alt="">
-                        </div>
-                        <!-- 彈跳視窗 -->
-                        <script>
-                            //週年慶活動辦法下拉選單
+                        </div> -->
+                        <!-- 彈跳視窗 週年慶活動辦法下拉選單-->
+                        <!-- <script>
                             $(".anniversary_2 img,.anniversary_2").hide();
                             $('.anniversary_1').click(function (e) {
                                 e.preventDefault();
@@ -104,9 +105,11 @@
                                 e.preventDefault();
                                 $(".anniversary_2 img,.anniversary_2").hide();
                             });
-                        </script>
+                        </script> -->
                         <img src="images/vgdm30/03_keypoint.jpg">
-                        <img src="images/vgdm30/03_SP_friend_1.png">
+                        <a href="#sale">
+                            <img src="images/vgdm30/03_SP_friend_1.png">
+                        </a>
                         <img src="images/vgdm30/04_blogger.jpg">
                         <img src="images/vgdm30/05_magzine.jpg">
                     </div>
@@ -156,7 +159,10 @@
                     <!-- size -->
                     <section class="fv">
                         <div class="center">
-                            <img src="images/vgdm30/06_SP_friend_2.png" alt="">
+                            <!-- Button trigger modal -->
+                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img src="images/vgdm30/06_SP_friend_2.png" alt="">
+                            </a>
                             <img src="images/vgdm30/07_size.jpg" alt="">
                             <img src="images/vgdm30/08_contact.jpg" alt="">
                         </div>
@@ -178,6 +184,59 @@
                         </li>
                     </ul>
                 </section>
+
+                <!-- Modal -->
+                <!-- style="background-color: #FFEDEE;" -->
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content" style="background-color: #FFEDEE;">
+                            <div class="modal-body">
+                                <div class="titlebox d-flex">
+                                    <h3>簡單4步驟，超殺折扣不放過</h3>
+                                    <button type="button" class="btn-close ml-auto" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <p>Step1️⃣ 將以下資訊複製給你的好友</p>
+                                <p id="copy">
+                                    【新朋友專屬優惠碼➜ 「vgfi300n」<br>
+                                    專屬訂購網站➜ http://bit.ly/3rX4MzY<br>
+                                    ⚠限購買2入(含)以上適用唷⚠】<br>
+                                    備註欄填入我的(介紹人)手機號碼：
+                                </p>
+                                <a href="javascript:void(0)" onclick="copyEvent('copy')">
+                                    <h4>→點我複製以上文字</h4>
+                                </a>
+                                <p>Step2️⃣ 好友使用優惠碼下單折扣$300元<br>
+
+                                    Step3️⃣ 好友收貨後，客服將主動聯繫您提供－老朋友專屬9折再折$300優惠碼<br>
+
+                                    Step4️⃣ 使用老顧客專屬優惠碼，回購價格下單再享折扣$300，最高共省$2900！
+                                </p>
+
+                                <br>
+                                <h3>活動辦法</h3>
+                                <p>
+                                    一、介紹人資格：已於官網購買過Viage晚安立體美型內衣者<br>
+                                    二、被介紹人資格：尚未於官網購買過Viage晚安立體美型內衣者<br>
+                                    三、活動獎勵折扣<br>
+                                    (一) 介紹人獎勵折扣：<br>
+                                    獲折扣$300元優惠碼：介紹人於活動期間成功介紹1位新客購買Viage晚安立體美型內衣並完成收貨，即可獲得介紹人獎勵折扣$300元優惠碼(限收到優惠碼後30天內購買2入(含)以上使用)<br>
+                                    (二) 被介紹人優惠：<br>
+                                    購買2入(含)以上任一方案可享折扣$300元
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    function copyEvent(id) {
+                        var str = document.getElementById(id);
+                        window.getSelection().selectAllChildren(str);
+                        document.execCommand("Copy")
+                    }
+                </script>
 
                 <!-- GetButton.io widget -->
                 <div class="line_alert">
@@ -210,7 +269,7 @@
         </div>
         <br>
     </div>
-    
+
     <!-- wrapper End -->
     <!-- 編集削除禁止※ACCESS　JAVASCRIPT※編集削除禁止 -->
     <div id=acs_lp_form></div>
@@ -218,6 +277,9 @@
     <!-- 編集削除禁止※ACCESS　JAVASCRIPT※編集削除禁止 -->
 
     <!-- 網頁設計師編輯區塊 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
     <script src="js/all.js"></script>
 </body>
 

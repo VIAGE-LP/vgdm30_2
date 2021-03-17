@@ -6,6 +6,12 @@ $(document).ready(function () {
             scrollTop: $('#buy').offset().top,
         }, 900);
     });
+    $('a[href="#sale"]').click(function (e) {
+        e.preventDefault();
+        $('html , body').animate({
+            scrollTop: $('#sale').offset().top,
+        }, 900);
+    });
 
     // $("#wh-call-to-action").removeAttr("wh-click");
     $("#wh-call-to-action").removeClass("wh-animation-in");
