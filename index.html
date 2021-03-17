@@ -230,11 +230,13 @@
                         </div>
                     </div>
                 </div>
+                <!-- modal 複製文字 -->
                 <script>
                     function copyEvent(id) {
                         var str = document.getElementById(id);
                         window.getSelection().selectAllChildren(str);
                         document.execCommand("Copy")
+                        alert("分享資訊已複製");
                     }
                 </script>
 
