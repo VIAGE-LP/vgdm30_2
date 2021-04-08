@@ -48,16 +48,16 @@ $("#lp_form").ready(function () {
         var color_selector = document.querySelector('select[data-category="內衣"][name="color-selector"]').value;
         var preorder_text = $('<span>', { text: '(預購)', style: 'color: red;' });
         $('.form-group > span').empty();
-        if ((color_selector == "天空藍" && size_selector == "M") || (color_selector == "櫻花粉" && size_selector == "M") || (color_selector == "櫻花粉" && size_selector == "M/L") || (color_selector == "海軍藍" && size_selector == "M") || (color_selector == "薰衣草紫" && size_selector == "M") || (color_selector == "寧靜灰" && size_selector == "S") || (color_selector == "異色黑" && size_selector == "S") || (color_selector == "異色黑" && size_selector == "M/L")) {
+        if ((color_selector == "天空藍" && size_selector == "M") || (color_selector == "櫻花粉" && size_selector == "M") || (color_selector == "櫻花粉" && size_selector == "ML") || (color_selector == "櫻花粉" && size_selector == "SM") || (color_selector == "海軍藍" && size_selector == "M") || (color_selector == "薰衣草紫" && size_selector == "M") || (color_selector == "寧靜灰" && size_selector == "S") || (color_selector == "異色黑" && size_selector == "S") || (color_selector == "異色黑" && size_selector == "ML")) {
             $('select[data-category="內衣"][data-name="size-selector"]').parent().after(preorder_text);
         } else {
             $('.form-group > span').empty();
         }
     });
     // 天空藍：M
-    // 櫻花粉：M、M / L
+    // 櫻花粉：M、ML、SM
     // 海軍藍：M
     // 薰衣草紫：M
     // 寧靜灰: S
-    // 異色黑: S、M / L
+    // 異色黑: S、ML
 });
